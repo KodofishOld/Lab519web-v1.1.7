@@ -1,0 +1,45 @@
+.temp h2{
+    position: absolute;
+    color: white;
+    font-size: 81px;
+    left: 10%;
+    top:40%;
+}
+
+.temp img{
+    position: absolute;
+    width: 15%;
+    top: 30%;
+    left: 5%;
+}
+
+@media screen and (max-width: 1024px){
+    .temp h2{
+        position: absolute;
+        color: white;
+        left: 15%;
+        top:45%;
+    }
+    .temp img{
+        position: absolute;
+        width: 20%;
+        top: 50%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .temp h2{
+        font-size: 54px;
+        left: 16%;
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .temp h2{
+        font-size: 24px;
+        left: 16%;
+        top: 50%;
+    }
+}

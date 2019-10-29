@@ -1,0 +1,48 @@
+.hum img{
+    position: absolute;
+    width: 20%;
+    left: 25%;
+    top: 32%;
+}
+
+.hum h1{
+    position: absolute;
+    color: white;
+    font-size: 81px;
+    left: 33%;
+    top: 40%;
+}
+
+@media screen and (max-width: 1024px){
+    .hum h1{
+        position: absolute;
+        color: white;
+        left: 40%;
+        top:45%;
+    }
+    .hum img{
+        position: absolute;
+        width: 20%;
+        top: 57%;
+        left: 35%;
+    }
+}
+@media screen and (max-width: 768px){
+    .hum h1{
+        font-size: 54px;
+        top: 50%;
+        left: 42%;
+    }
+    .hum img{
+        position: absolute;
+        top: 56%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .hum h1{
+        font-size: 24px;
+        top: 53%;
+        left: 42%;
+    }
+}

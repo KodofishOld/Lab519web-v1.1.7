@@ -1,0 +1,53 @@
+.Groups{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top:57%;
+    left:0;
+    z-index:1;
+    background-color:black;opacity:0.85;
+    border: 1px solid red;
+}
+
+
+@media screen and (max-width: 1024px){
+    .Groups{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        top:29%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Groups{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        top:48%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .Groups{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        top:79%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .Groups{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        top:69%;
+    }
+}
+
+

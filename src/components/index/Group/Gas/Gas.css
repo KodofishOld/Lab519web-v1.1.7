@@ -1,0 +1,44 @@
+.gas img{
+    position: absolute;
+    width: 20%;
+    left: 75%;
+    top:42%;
+}
+
+.gas h1{
+    position: absolute;
+    color: white;
+    font-size: 81px;
+    left: 85%;
+    top:42%;
+}
+
+@media screen and (max-width: 1024px){
+    .gas h1{
+        position: absolute;
+        color: white;
+        left: 25%;
+        top:15%;
+    }
+    .gas img{
+        position: absolute;
+        width: 30%;
+        top: 20%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .gas h1{
+        font-size: 54px;
+        top:15%;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .gas h1{
+        font-size: 24px;
+        top:20%;
+    }
+}

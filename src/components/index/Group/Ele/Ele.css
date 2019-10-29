@@ -1,0 +1,43 @@
+.ele img{
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    top:40%;
+}
+
+.ele h1{
+    position: absolute;
+    color: white;
+    font-size: 81px;
+    left: 55%;
+    top:40%;
+}
+
+@media screen and (max-width: 1024px){
+    .ele h1{
+        position: absolute;
+        color: white;
+        left: 67%;
+        top:45%;
+    }
+    .ele img{
+        position: absolute;
+        width: 30%;
+        top: 53%;
+        left: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .ele h1{
+        font-size: 54px;
+        top:50%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .ele h1{
+        font-size: 24px;
+        top:54%;
+    }
+}
